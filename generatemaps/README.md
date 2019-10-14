@@ -34,9 +34,15 @@
 - [Fonte para correção do bug](https://github.com/react-native-community/react-native-maps/pull/3106/files)
 
 ## Backend
+
 `yarn add express pg pg-hstore sequelize`
+
 `yarn add  sequelize-cli -D`
+
 `yarn add  nodemon -D `
+
+`yarn sequelize db:migrate`
+
 
 --------------------------------------------------------------------------------
 * Verificar o backend com as configurações, pois essa parte ainda não trabelhei em nenhuma aplicação
