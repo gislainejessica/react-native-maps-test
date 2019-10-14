@@ -11,7 +11,8 @@
 - Pedir permissão para pegar a localização atual do usuario 
     - (Issue) Se GPS tá desligada, app dá crash
 
-- Api para gerencias acesso aos dados de pontos geograficos, guardados num banco que servirão a aplicação. 
+- Api para gerencias acesso aos dados de pontos geograficos,
+  guardados num banco que servirão a aplicação. 
 - App vai renderezar na tela os pontos trazidos do backend
 - Pontos só serão renderizados se tiverem a 10 km da posição inicial
 
@@ -45,9 +46,15 @@
 `yarn sequelize db:migrate`
 
 --------------------------------------------------------------------------------
-* Verificar o backend e suas configurações, pois essa parte ainda não utilizei em nenhuma aplicação, pelo menos não usando sequelize e banco postgres, tenho que configurar o Pg ou no docker ou na minha maquina mesmo, pra poder finalizar essa parte da manipulação dos ponto armazenados no BD.
+* Verificar o backend e suas configurações, pois essa parte ainda não utilizei 
+em nenhuma aplicação, pelo menos não usando sequelize e banco postgres,
+tenho que configurar o Pg ou no docker ou na minha maquina mesmo, 
+pra poder finalizar essa parte da manipulação dos ponto armazenados no BD.
 
-  Como não sei bem o fluxo total pra gerar o backend dessa aplicação, usando sequilize, migrations, essas coisas, vou colocar o que consegui tirar da live sobre geolocalização e depois vejo direitinho como fazer essa parte do backend rodar.
+  Como não sei bem o fluxo total pra gerar o backend dessa aplicação, 
+  usando sequilize, migrations, essas coisas, 
+  vou colocar o que consegui tirar da live sobre geolocalização
+  e depois vejo direitinho como fazer essa parte do backend rodar.
 
 **Tarefas pra correr atrás e fazer funcionar:**
 - Gerar o banco com as tabelas necessárias, usando o sequelize.
