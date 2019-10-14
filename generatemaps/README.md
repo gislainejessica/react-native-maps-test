@@ -37,3 +37,15 @@
 `yarn add express pg pg-hstore sequelize`
 `yarn add  sequelize-cli -D`
 `yarn add  nodemon -D `
+
+--------------------------------------------------------------------------------
+* Verificar o backend com as configurações, pois essa parte ainda não trabelhei em nenhuma aplicação
+então não sei bem o fluxo total pra gerar o backend dessa aplicação, usando sequilize, migrations, essas coisas, então estou colocando o que consegui tirar da live, e depois vejo direitinho como fazer essa 
+parte do backend rodar
+
+- Gerar o banco com as tabelas necessárias
+yarn sequelize db:migrate
+
+* o migration create como ele é gerado, pois tem uns numeros na frente, onde ele é gerado
+
+* pegar o calculo naval para calculo das distâncias
