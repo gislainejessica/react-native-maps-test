@@ -34,13 +34,15 @@
 - [Fonte para correção do bug](https://github.com/react-native-community/react-native-maps/pull/3106/files)
 
 ## Backend
--  **Alguns comandos que foram utilizados no backend**
-``` 
-  yarn add express pg pg-hstore sequelize
-  yarn add  sequelize-cli -D
-  yarn add  nodemon -D 
-  yarn sequelize db:migrate
-```    
+- **Alguns comandos que foram utilizados no backend**
+
+`yarn add express pg pg-hstore sequelize`
+
+`yarn add  sequelize-cli -D`
+
+`yarn add  nodemon -D `
+
+`yarn sequelize db:migrate`
 
 --------------------------------------------------------------------------------
 * Verificar o backend e suas configurações, pois essa parte ainda não utilizei em nenhuma aplicação, pelo menos não usando sequelize e banco postgres, tenho que configurar o Pg ou no docker ou na minha maquina mesmo, pra poder finalizar essa parte da manipulação dos ponto armazenados no BD.
