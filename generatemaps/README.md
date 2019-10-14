@@ -34,18 +34,21 @@
 - [Fonte para correção do bug](https://github.com/react-native-community/react-native-maps/pull/3106/files)
 
 ## Backend
-`yarn add express pg pg-hstore sequelize`
-`yarn add  sequelize-cli -D`
-`yarn add  nodemon -D `
+-  **Alguns comandos que foram utilizados no backend**
+``` 
+  yarn add express pg pg-hstore sequelize
+  yarn add  sequelize-cli -D
+  yarn add  nodemon -D 
+  yarn sequelize db:migrate
+```    
 
 --------------------------------------------------------------------------------
-* Verificar o backend com as configurações, pois essa parte ainda não trabelhei em nenhuma aplicação
-então não sei bem o fluxo total pra gerar o backend dessa aplicação, usando sequilize, migrations, essas coisas, então estou colocando o que consegui tirar da live, e depois vejo direitinho como fazer essa 
-parte do backend rodar
+* Verificar o backend e suas configurações, pois essa parte ainda não utilizei em nenhuma aplicação, pelo menos não usando sequelize e banco postgres, tenho que configurar o Pg ou no docker ou na minha maquina mesmo, pra poder finalizar essa parte da manipulação dos ponto armazenados no BD.
 
-- Gerar o banco com as tabelas necessárias
-yarn sequelize db:migrate
+  Como não sei bem o fluxo total pra gerar o backend dessa aplicação, usando sequilize, migrations, essas coisas, vou colocar o que consegui tirar da live sobre geolocalização e depois vejo direitinho como fazer essa parte do backend rodar.
 
-* o migration create como ele é gerado, pois tem uns numeros na frente, onde ele é gerado
-
-* pegar o calculo naval para calculo das distâncias
+**Tarefas pra correr atrás e fazer funcionar:**
+- Gerar o banco com as tabelas necessárias, usando o sequelize.
+- Duvidas: Migration create como ele é gerado? Esse numeros na frente do
+  arquivo é gerado automaticaticamente, se sim onde, quem gera essa migrate?
+- Pegar o calculo naval para calculo das distâncias
